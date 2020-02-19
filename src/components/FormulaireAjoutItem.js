@@ -12,7 +12,7 @@ const FormulaireAjoutItem = ({ ajouterItemListe }) => {
 
 	/**
 	 * Méthode creerDateFormatee
-	 * @description Créer une date sous le format (HH:MM JJ/MM/AAAA)
+	 * @description Créer une date sous le format (JJ/MM/AAAA à HH:MM)
 	 * @returns String de la date formatée
 	 */
 	const creerDateFormatee = () => {
@@ -27,7 +27,7 @@ const FormulaireAjoutItem = ({ ajouterItemListe }) => {
 	};
 
 	/**
-	 * Méthode updateTitre
+	 * Méthode handleChange
 	 * @description Change le state du string du titre
 	 * @param event event qui appelle la fonction
 	 */
